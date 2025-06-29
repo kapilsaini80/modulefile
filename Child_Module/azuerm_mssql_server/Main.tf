@@ -6,3 +6,4 @@ resource "azurerm_mssql_server" "mssqlserver" {
   administrator_login          = var.mssql_username
   administrator_login_password = var.mssql_password # Use a secure password
 }
+# ya ha server sql 
